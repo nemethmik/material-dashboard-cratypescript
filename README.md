@@ -4,6 +4,7 @@ A port of Creative Tim's material-dashboard-react over to a project initialized 
 ## Installation
 - npx create-react-app . --typescript
 - npm install @material-ui/core @material-ui/icons @types/googlemaps @types/markerclustererplus ajv chartist classnames npm-run-all perfect-scrollbar react@next react-chartist react-dom@next react-google-maps react-router-dom @types/react-router-dom react-swipeable-views @types/history
+  - If you want to use React Hooks, the next version is to be imported; 16.7.0 doesn't have hooks enabled: **react@next react-dom@next** 
 - Copy the **.env** file from [Creative Tim's material-dashboard-react](https://github.com/creativetimofficial/material-dashboard-react) to get **NODE_PATH=./src** this is important since Createive Tim imports modules without dot-slash "./", and comment out the ignoration of .env in .gitignore: **#.env**
 - Copy all the folders including their contents from the original Creative Tim project: **assests, components, layouts, routes, variables, views**.
 - Optionally, delete App.css, App.test.tsx, App.tsx, index.css; of course, you can keep them and adjust App.tsx instead of index.tsx.
